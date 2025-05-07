@@ -1,4 +1,4 @@
-# Amazon-sentiment-analysis
+# Amazon-Sentiment-Analysis
 **Introduction:**
 
   Online reviews influence purchasing decisions. 
@@ -28,14 +28,15 @@ it has large volume of reviews and it is time consuming and inefficient.  It nee
 
     2.Analyze product reviews and classify them as positive or negative. 
 
-    3.Compare different ML algorithms (Logistic Regression, Naïve Bayes, Decision Tree, 
-XGBoost, Random Forest). 
+    3.Compare different ML algorithms (Logistic Regression, Naïve Bayes, Decision Tree, XGBoost, Random Forest). 
 
     4. Use word clouds and data visualization to interpret customer feedback.
    
     5.Improve model accuracy through text preprocessing and feature engineering.
 
 ![image](https://github.com/user-attachments/assets/42fc2e4c-62b8-4695-8554-455da9353488)
+
+
 
 **Dataset features:**
 
@@ -91,6 +92,8 @@ Natural Language Processing (NLP) is a branch of Artificial Intelligence (AI) th
  
 **Impact**: NLP enhances customer feedback analysis, allowing businesses to improve products based on real user opinions.   
 
+
+
  **Data visualization**
 
    ![image](https://github.com/user-attachments/assets/4de8ad6b-4606-44d5-acd4-dd5f8038ec4b)
@@ -119,8 +122,7 @@ Why Use StandardScaler?
 
   1. Logistic Regression
 
-    •	A statistical model that predicts binary outcomes (positive/negative). Uses a sigmoid function to estimate probabilities.
-Suitable for text classification when features are properly preprocessed.
+    •	A statistical model that predicts binary outcomes (positive/negative). Uses a sigmoid function to estimate probabilities. Suitable for text classification when features are properly preprocessed.
 
   2. Naïve Bayes
 
