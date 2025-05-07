@@ -19,9 +19,18 @@ In real- time the manual analysis is inefficient in sentiment analysis. It is fa
 it has large volume of reviews and it is time consuming and inefficient.  It needs automation. 
 Main Goals of the Project: 
 
- Develop a sentiment classification model using machine learning. 
- Analyze product reviews and classify them as positive or negative. 
- Compare different ML algorithms (Logistic Regression, Naïve Bayes, Decision Tree, 
+1.Develop a sentiment classification model using machine learning. 
+
+2.Analyze product reviews and classify them as positive or negative. 
+
+3.Compare different ML algorithms (Logistic Regression, Naïve Bayes, Decision Tree, 
 XGBoost, Random Forest). 
- Use word clouds and data visualization to interpret customer feedback. 
- Improve model accuracy through text preprocessing and feature engineering.
+
+4. Use word clouds and data visualization to interpret customer feedback.
+   
+5.Improve model accuracy through text preprocessing and feature engineering.
+
+![image](https://github.com/user-attachments/assets/42fc2e4c-62b8-4695-8554-455da9353488)
+
+
+
