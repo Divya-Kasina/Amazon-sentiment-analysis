@@ -1,4 +1,4 @@
-# amazon-sentiment-analysis
+![image](https://github.com/user-attachments/assets/d7013009-795f-49bf-9662-4f4c468c4504)# amazon-sentiment-analysis
 Introduction :
 
 Online reviews influence purchasing decisions. 
@@ -34,27 +34,145 @@ XGBoost, Random Forest).
 
 Dataset features:
 
-Feature Name	        Description
+![image](https://github.com/user-attachments/assets/4610e000-0b85-48d5-af0f-772b2a7310b1)
 
-Id                  	A unique identifier for each review.
+Features Used in Sentiment Analysis
 
-ProductId	           The unique ID of the product being reviewed.
+For sentiment classification, the key features used are:
 
-UserId	              The unique ID of the user who wrote the review.
+•	Summary : Summaries are short and often capture the essence of customer opinions, making them ideal for sentiment classification.
 
-ProfileName	         The name of the reviewer.
+•	 Sentiment : The sentiment column contains numerical labels indicating the sentiment of each review:
 
-HelpfulnessNumerator	  The number of users who found the review helpful.
+1.	1: Positive sentiment
+  
+2.	-1: Negative sentiment
 
-HelpfulnessDenominator	  The total number of users who rated the helpfulness of the
-  review.
-Score	               The rating given by the reviewer (1 to 5).
+•	Text : While not directly analyzed in some steps, it provides additional context or details for more nuanced sentiment analysis.
 
-Time	                The timestamp of when the review was posted (Unix format).
+What is NLP?
 
-Summary	             A short summary of the review written by the user.
+Natural Language Processing (NLP) is a branch of Artificial Intelligence (AI) that enables computers to understand, interpret, and generate human language. It bridges the gap between human communication and machine learning.
 
-Text	                The full text of the product review
+ How NLP is Used in Sentiment Analysis?
+ 
+ In this project, NLP techniques are used to:
+ 
+ Clean and preprocess text (remove stopwords, punctuation, special characters).
+ 
+ Extract meaningful features using vectorization (CountVectorizer, TF-IDF).
+ 
+ Classify sentiment as positive or negative using ML models.
+ 
+ Visualize important words using word clouds.
+ 
+Vectorization the process of converting textual data into numerical representations.
+
+ NLP Techniques Applied in the Project:
+ 
+ Tokenization: Splitting text into words/sentences.
+ 
+ Stopword Removal: Filtering out common, non-informative words.
+ 
+ Word Cloud: Highlighting frequently used words.
+
+ ![image](https://github.com/user-attachments/assets/0373748d-b57e-4ba7-bb1b-641676b7a3d8)
+
+ ![image](https://github.com/user-attachments/assets/ceaa34dd-9efa-4d9e-9a96-0f87ee2bbad4)
+
+ ![image](https://github.com/user-attachments/assets/77d9d279-d651-4052-a986-26a6b46f546a)
+ 
+ Sentiment Classification: Predicting the sentiment of reviews.
+ 
+ Impact: NLP enhances customer feedback analysis, allowing businesses to improve products based on real user opinions.   
+
+ Data visualization
+
+   ![image](https://github.com/user-attachments/assets/76b78798-3791-4251-b051-f62256dde734)
+
+   ![image](https://github.com/user-attachments/assets/ee9ac959-e447-4f5c-a842-9c9b7981a879)
+
+Data Preprocessing
+
+Why Use StandardScaler?
+
+1.	Improves Model Performance: Many ML algorithms (e.g., logistic regression, SVM, KNN) work better when data is standardized.
+
+2.	Faster Convergence: Gradient-based algorithms converge faster with standardized data.
+
+3.	After applying StandardScaler, each feature will have:
+
+•	A mean of 0.
+
+•	A standard deviation of 1.
+
+4.	Prevents Dominance of Large-Scale Features: Features with larger scales won't dominate those with smaller scales.
+
+ML Models
+
+1. Logistic Regression
+
+•	A statistical model that predicts binary outcomes (positive/negative). Uses a sigmoid function to estimate probabilities.
+Suitable for text classification when features are properly preprocessed.
+
+2. Naïve Bayes
+
+•	A probabilistic classifier based on Bayes’ theorem. Assumes independence between words (Bag of Words assumption). Works well for text classification, especially when data is sparse.
+ 
+3. Decision Tree Classifier
+
+•	A tree-based model that splits data using decision rules. Each node represents a decision based on feature values. Easy to interpret but prone to overfitting without depth control.
+
+ 
+4. XGBoost (Extreme Gradient Boosting)
+
+•	An ensemble learning technique based on decision trees. Uses boosting to improve accuracy and handle complex patterns. Fast and efficient, often outperforming other models on structured data.
+ 
+5. Random Forest
+
+•	An ensemble of decision trees that reduces overfitting. Combines multiple trees and averages predictions for better accuracy. Performs well on large datasets with high-dimensional features.
+
+Evaluation Matrix
+
+True Positive (TP)
+
+•	The model correctly predicts a positive sentiment when the actual sentiment is positive.
+
+True Negative (TN)
+
+•	The model correctly predicts a negative sentiment when the actual sentiment is negative.
+
+ False Positive (FP) (Type I Error)
+
+•	The model incorrectly predicts a positive sentiment when the actual sentiment is negative.
+
+False Negative (FN) (Type II Error)
+
+•	The model incorrectly predicts a negative sentiment when the actual sentiment is positive.
+
+ROC Curve
+
+A Receiver Operating Characteristic (ROC) curve is a graphical representation of the performance of a classification model at different threshold values. It plots: 
+
+True Positive Rate (TPR) (Sensitivity) on the Y-axis. 
+
+False Positive Rate (FPR) on the X-axis. 
+
+![image](https://github.com/user-attachments/assets/0786095b-9655-480b-8bc8-c1d132beae69)
+
+
+The Area Under the Curve (AUC) quantifies the model’s ability to distinguish between classes: 
+
+AUC = 1 → Perfect model (ideal classification). 
+
+AUC = 0.5 → Random guessing (no discriminatory power). 
+
+AUC < 0.5 → Worse than random guessing.
+
+![image](https://github.com/user-attachments/assets/697cd332-0758-4220-82bb-1af92f8d7456)
+
+
+
 
 
 
