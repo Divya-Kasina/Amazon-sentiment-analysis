@@ -96,9 +96,9 @@ Natural Language Processing (NLP) is a branch of Artificial Intelligence (AI) th
 
  **Data visualization**
 
-   ![image](https://github.com/user-attachments/assets/4de8ad6b-4606-44d5-acd4-dd5f8038ec4b)
+ ![image](https://github.com/user-attachments/assets/2f77b79d-2c47-4ae4-b9ff-0890fd4134fb)
 
-   ![image](https://github.com/user-attachments/assets/91a30c64-ec90-4df6-a1d1-a32c31a97bcf)
+ ![image](https://github.com/user-attachments/assets/43cd281e-8ce7-4ca1-8041-0397fdc4cdbf)
 
 
 
