@@ -34,18 +34,27 @@ XGBoost, Random Forest).
 
 Dataset features:
 
-Feature Name	 Description
-Id	A unique identifier for each review.
-ProductId	The unique ID of the product being reviewed.
-UserId	The unique ID of the user who wrote the review.
-ProfileName	The name of the reviewer
+Feature Name	        Description
+
+Id                  	A unique identifier for each review.
+
+ProductId	           The unique ID of the product being reviewed.
+
+UserId	              The unique ID of the user who wrote the review.
+
+ProfileName	         The name of the reviewer.
+
 HelpfulnessNumerator	  The number of users who found the review helpful.
+
 HelpfulnessDenominator	  The total number of users who rated the helpfulness of the
   review.
-Score	The rating given by the reviewer (1 to 5).
-Time	The timestamp of when the review was posted (Unix format).
-Summary	A short summary of the review written by the user.
-Text	The full text of the product review
+Score	               The rating given by the reviewer (1 to 5).
+
+Time	                The timestamp of when the review was posted (Unix format).
+
+Summary	             A short summary of the review written by the user.
+
+Text	                The full text of the product review
 
 
 
