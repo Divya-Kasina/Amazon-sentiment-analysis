@@ -1,11 +1,15 @@
-![image](https://github.com/user-attachments/assets/d7013009-795f-49bf-9662-4f4c468c4504)# amazon-sentiment-analysis
-Introduction :
+# amazon-sentiment-analysis
+**Introduction:**
 
 Online reviews influence purchasing decisions. 
+
 Sentiment analysis helps in understanding customer feedback. 
+
 Machine learning models can classify reviews as positive or negative based on textual data. 
+
 This project explores multiple ML models to analyze product reviews effectively. 
-Key Terms: 
+
+**Key Terms**: 
 
 1. Sentiment Analysis: Process of determining the sentiment of text data. 
 
@@ -13,11 +17,12 @@ Key Terms:
 
 3. Natural Language Processing (NLP): AI-driven language processing 
  
-Problem statement and objectives 
+**Problem statement and objectives **
 
 In real- time the manual analysis is inefficient in sentiment analysis. It is facing challenges as 
 it has large volume of reviews and it is time consuming and inefficient.  It needs automation. 
-Main Goals of the Project: 
+
+**Main Goals of the Project: **
 
 1.Develop a sentiment classification model using machine learning. 
 
@@ -32,11 +37,11 @@ XGBoost, Random Forest).
 
 ![image](https://github.com/user-attachments/assets/42fc2e4c-62b8-4695-8554-455da9353488)
 
-Dataset features:
+**Dataset features:**
 
 ![image](https://github.com/user-attachments/assets/4610e000-0b85-48d5-af0f-772b2a7310b1)
 
-Features Used in Sentiment Analysis
+**Features Used in Sentiment Analysis**
 
 For sentiment classification, the key features used are:
 
@@ -44,37 +49,37 @@ For sentiment classification, the key features used are:
 
 •	 Sentiment : The sentiment column contains numerical labels indicating the sentiment of each review:
 
-1.	1: Positive sentiment
+   1.	1: Positive sentiment
   
-2.	-1: Negative sentiment
+   2.	-1: Negative sentiment
 
 •	Text : While not directly analyzed in some steps, it provides additional context or details for more nuanced sentiment analysis.
 
-What is NLP?
+**What is NLP?**
 
 Natural Language Processing (NLP) is a branch of Artificial Intelligence (AI) that enables computers to understand, interpret, and generate human language. It bridges the gap between human communication and machine learning.
 
- How NLP is Used in Sentiment Analysis?
+ **How NLP is Used in Sentiment Analysis?**
  
  In this project, NLP techniques are used to:
  
- Clean and preprocess text (remove stopwords, punctuation, special characters).
+   1.Clean and preprocess text (remove stopwords, punctuation, special characters).
  
- Extract meaningful features using vectorization (CountVectorizer, TF-IDF).
+   2.Extract meaningful features using vectorization (CountVectorizer, TF-IDF).
  
- Classify sentiment as positive or negative using ML models.
+   3.Classify sentiment as positive or negative using ML models.
  
- Visualize important words using word clouds.
+   4.Visualize important words using word clouds.
  
-Vectorization the process of converting textual data into numerical representations.
+   5.Vectorization the process of converting textual data into numerical representations.
 
- NLP Techniques Applied in the Project:
+ **NLP Techniques Applied in the Project:**
  
- Tokenization: Splitting text into words/sentences.
+ **Tokenization**: Splitting text into words/sentences.
  
- Stopword Removal: Filtering out common, non-informative words.
+ **Stopword Removal**: Filtering out common, non-informative words.
  
- Word Cloud: Highlighting frequently used words.
+ **Word Cloud**: Highlighting frequently used words.
 
  ![image](https://github.com/user-attachments/assets/0373748d-b57e-4ba7-bb1b-641676b7a3d8)
 
@@ -82,17 +87,19 @@ Vectorization the process of converting textual data into numerical representati
 
  ![image](https://github.com/user-attachments/assets/77d9d279-d651-4052-a986-26a6b46f546a)
  
- Sentiment Classification: Predicting the sentiment of reviews.
+ **Sentiment Classification**: Predicting the sentiment of reviews.
  
- Impact: NLP enhances customer feedback analysis, allowing businesses to improve products based on real user opinions.   
+** Impact**: NLP enhances customer feedback analysis, allowing businesses to improve products based on real user opinions.   
 
- Data visualization
+ **Data visualization**
 
-   ![image](https://github.com/user-attachments/assets/76b78798-3791-4251-b051-f62256dde734)
+   ![image](https://github.com/user-attachments/assets/4de8ad6b-4606-44d5-acd4-dd5f8038ec4b)
 
-   ![image](https://github.com/user-attachments/assets/ee9ac959-e447-4f5c-a842-9c9b7981a879)
+   ![image](https://github.com/user-attachments/assets/91a30c64-ec90-4df6-a1d1-a32c31a97bcf)
 
-Data Preprocessing
+
+
+**Data Preprocessing**
 
 Why Use StandardScaler?
 
@@ -102,13 +109,13 @@ Why Use StandardScaler?
 
 3.	After applying StandardScaler, each feature will have:
 
-•	A mean of 0.
+   •	A mean of 0.
 
-•	A standard deviation of 1.
+   •	A standard deviation of 1.
 
 4.	Prevents Dominance of Large-Scale Features: Features with larger scales won't dominate those with smaller scales.
 
-ML Models
+**ML Models**
 
 1. Logistic Regression
 
@@ -132,42 +139,42 @@ Suitable for text classification when features are properly preprocessed.
 
 •	An ensemble of decision trees that reduces overfitting. Combines multiple trees and averages predictions for better accuracy. Performs well on large datasets with high-dimensional features.
 
-Evaluation Matrix
+**Evaluation Matrix**
 
 True Positive (TP)
 
-•	The model correctly predicts a positive sentiment when the actual sentiment is positive.
+  •	The model correctly predicts a positive sentiment when the actual sentiment is positive.
 
 True Negative (TN)
 
-•	The model correctly predicts a negative sentiment when the actual sentiment is negative.
+  •	The model correctly predicts a negative sentiment when the actual sentiment is negative.
 
- False Positive (FP) (Type I Error)
+False Positive (FP) (Type I Error)
 
-•	The model incorrectly predicts a positive sentiment when the actual sentiment is negative.
+  •	The model incorrectly predicts a positive sentiment when the actual sentiment is negative.
 
 False Negative (FN) (Type II Error)
 
-•	The model incorrectly predicts a negative sentiment when the actual sentiment is positive.
+  •	The model incorrectly predicts a negative sentiment when the actual sentiment is positive.
 
-ROC Curve
+**ROC Curve**
 
 A Receiver Operating Characteristic (ROC) curve is a graphical representation of the performance of a classification model at different threshold values. It plots: 
 
-True Positive Rate (TPR) (Sensitivity) on the Y-axis. 
+  True Positive Rate (TPR) (Sensitivity) on the Y-axis. 
 
-False Positive Rate (FPR) on the X-axis. 
+  False Positive Rate (FPR) on the X-axis. 
 
 ![image](https://github.com/user-attachments/assets/0786095b-9655-480b-8bc8-c1d132beae69)
 
 
 The Area Under the Curve (AUC) quantifies the model’s ability to distinguish between classes: 
 
-AUC = 1 → Perfect model (ideal classification). 
+   AUC = 1 → Perfect model (ideal classification). 
 
-AUC = 0.5 → Random guessing (no discriminatory power). 
+   AUC = 0.5 → Random guessing (no discriminatory power). 
 
-AUC < 0.5 → Worse than random guessing.
+   AUC < 0.5 → Worse than random guessing.
 
 ![image](https://github.com/user-attachments/assets/697cd332-0758-4220-82bb-1af92f8d7456)
 
