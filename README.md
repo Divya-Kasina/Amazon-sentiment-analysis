@@ -1,4 +1,4 @@
-# amazon-sentiment-analysis
+# Amazon-sentiment-analysis
 **Introduction:**
 
   Online reviews influence purchasing decisions. 
@@ -11,11 +11,11 @@
 
 **Key Terms**: 
 
-  1. Sentiment Analysis: Process of determining the sentiment of text data. 
+    1. Sentiment Analysis: Process of determining the sentiment of text data. 
 
-  2. Text Classification: Categorizing text into predefined labels (positive/negative). 
+    2. Text Classification: Categorizing text into predefined labels (positive/negative). 
 
-  3. Natural Language Processing (NLP): AI-driven language processing 
+    3. Natural Language Processing (NLP): AI-driven language processing 
  
 **Problem statement and objectives**:
 
@@ -24,16 +24,16 @@ it has large volume of reviews and it is time consuming and inefficient.  It nee
 
 **Main Goals of the Project**: 
 
-  1.Develop a sentiment classification model using machine learning. 
+    1.Develop a sentiment classification model using machine learning. 
 
-  2.Analyze product reviews and classify them as positive or negative. 
+    2.Analyze product reviews and classify them as positive or negative. 
 
-  3.Compare different ML algorithms (Logistic Regression, Naïve Bayes, Decision Tree, 
+    3.Compare different ML algorithms (Logistic Regression, Naïve Bayes, Decision Tree, 
 XGBoost, Random Forest). 
 
-  4. Use word clouds and data visualization to interpret customer feedback.
+    4. Use word clouds and data visualization to interpret customer feedback.
    
-  5.Improve model accuracy through text preprocessing and feature engineering.
+    5.Improve model accuracy through text preprocessing and feature engineering.
 
 ![image](https://github.com/user-attachments/assets/42fc2e4c-62b8-4695-8554-455da9353488)
 
@@ -63,15 +63,15 @@ Natural Language Processing (NLP) is a branch of Artificial Intelligence (AI) th
  
  In this project, NLP techniques are used to:
  
-   1.Clean and preprocess text (remove stopwords, punctuation, special characters).
+    1.Clean and preprocess text (remove stopwords, punctuation, special characters).
  
-   2.Extract meaningful features using vectorization (CountVectorizer, TF-IDF).
+    2.Extract meaningful features using vectorization (CountVectorizer, TF-IDF).
+  
+    3.Classify sentiment as positive or negative using ML models.
  
-   3.Classify sentiment as positive or negative using ML models.
+    4.Visualize important words using word clouds.
  
-   4.Visualize important words using word clouds.
- 
-   5.Vectorization the process of converting textual data into numerical representations.
+    5.Vectorization the process of converting textual data into numerical representations.
 
  **NLP Techniques Applied in the Project:**
  
@@ -89,7 +89,7 @@ Natural Language Processing (NLP) is a branch of Artificial Intelligence (AI) th
  
  **Sentiment Classification**: Predicting the sentiment of reviews.
  
-** Impact**: NLP enhances customer feedback analysis, allowing businesses to improve products based on real user opinions.   
+**Impact**: NLP enhances customer feedback analysis, allowing businesses to improve products based on real user opinions.   
 
  **Data visualization**
 
@@ -133,29 +133,29 @@ Suitable for text classification when features are properly preprocessed.
  
 4. XGBoost (Extreme Gradient Boosting)
 
-•	An ensemble learning technique based on decision trees. Uses boosting to improve accuracy and handle complex patterns. Fast and efficient, often outperforming other models on structured data.
+       •	An ensemble learning technique based on decision trees. Uses boosting to improve accuracy and handle complex patterns. Fast and efficient, often outperforming other models on structured data.
  
 5. Random Forest
 
-•	An ensemble of decision trees that reduces overfitting. Combines multiple trees and averages predictions for better accuracy. Performs well on large datasets with high-dimensional features.
+       •	An ensemble of decision trees that reduces overfitting. Combines multiple trees and averages predictions for better accuracy. Performs well on large datasets with high-dimensional features.
 
 **Evaluation Matrix**
 
 True Positive (TP)
 
-  •	The model correctly predicts a positive sentiment when the actual sentiment is positive.
+    •	The model correctly predicts a positive sentiment when the actual sentiment is positive.
 
 True Negative (TN)
 
-  •	The model correctly predicts a negative sentiment when the actual sentiment is negative.
+    •	The model correctly predicts a negative sentiment when the actual sentiment is negative.
 
 False Positive (FP) (Type I Error)
 
-  •	The model incorrectly predicts a positive sentiment when the actual sentiment is negative.
+    •	The model incorrectly predicts a positive sentiment when the actual sentiment is negative.
 
 False Negative (FN) (Type II Error)
 
-  •	The model incorrectly predicts a negative sentiment when the actual sentiment is positive.
+    •	The model incorrectly predicts a negative sentiment when the actual sentiment is positive.
 
 **ROC Curve**
 
