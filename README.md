@@ -1,39 +1,39 @@
 # amazon-sentiment-analysis
 **Introduction:**
 
-Online reviews influence purchasing decisions. 
+  Online reviews influence purchasing decisions. 
+  
+  Sentiment analysis helps in understanding customer feedback. 
 
-Sentiment analysis helps in understanding customer feedback. 
+  Machine learning models can classify reviews as positive or negative based on textual data. 
 
-Machine learning models can classify reviews as positive or negative based on textual data. 
-
-This project explores multiple ML models to analyze product reviews effectively. 
+  This project explores multiple ML models to analyze product reviews effectively. 
 
 **Key Terms**: 
 
-1. Sentiment Analysis: Process of determining the sentiment of text data. 
+  1. Sentiment Analysis: Process of determining the sentiment of text data. 
 
-2. Text Classification: Categorizing text into predefined labels (positive/negative). 
+  2. Text Classification: Categorizing text into predefined labels (positive/negative). 
 
-3. Natural Language Processing (NLP): AI-driven language processing 
+  3. Natural Language Processing (NLP): AI-driven language processing 
  
-**Problem statement and objectives **
+**Problem statement and objectives**:
 
 In real- time the manual analysis is inefficient in sentiment analysis. It is facing challenges as 
 it has large volume of reviews and it is time consuming and inefficient.  It needs automation. 
 
-**Main Goals of the Project: **
+**Main Goals of the Project**: 
 
-1.Develop a sentiment classification model using machine learning. 
+  1.Develop a sentiment classification model using machine learning. 
 
-2.Analyze product reviews and classify them as positive or negative. 
+  2.Analyze product reviews and classify them as positive or negative. 
 
-3.Compare different ML algorithms (Logistic Regression, Naïve Bayes, Decision Tree, 
+  3.Compare different ML algorithms (Logistic Regression, Naïve Bayes, Decision Tree, 
 XGBoost, Random Forest). 
 
-4. Use word clouds and data visualization to interpret customer feedback.
+  4. Use word clouds and data visualization to interpret customer feedback.
    
-5.Improve model accuracy through text preprocessing and feature engineering.
+  5.Improve model accuracy through text preprocessing and feature engineering.
 
 ![image](https://github.com/user-attachments/assets/42fc2e4c-62b8-4695-8554-455da9353488)
 
@@ -49,9 +49,9 @@ For sentiment classification, the key features used are:
 
 •	 Sentiment : The sentiment column contains numerical labels indicating the sentiment of each review:
 
-   1.	1: Positive sentiment
+    1.	1: Positive sentiment
   
-   2.	-1: Negative sentiment
+    2.	-1: Negative sentiment
 
 •	Text : While not directly analyzed in some steps, it provides additional context or details for more nuanced sentiment analysis.
 
@@ -103,32 +103,32 @@ Natural Language Processing (NLP) is a branch of Artificial Intelligence (AI) th
 
 Why Use StandardScaler?
 
-1.	Improves Model Performance: Many ML algorithms (e.g., logistic regression, SVM, KNN) work better when data is standardized.
+  1.	Improves Model Performance: Many ML algorithms (e.g., logistic regression, SVM, KNN) work better when data is standardized.
 
-2.	Faster Convergence: Gradient-based algorithms converge faster with standardized data.
+  2.	Faster Convergence: Gradient-based algorithms converge faster with standardized data.
 
-3.	After applying StandardScaler, each feature will have:
+  3.	After applying StandardScaler, each feature will have:
 
-   •	A mean of 0.
+     •	A mean of 0.
 
-   •	A standard deviation of 1.
+     •	A standard deviation of 1.
 
-4.	Prevents Dominance of Large-Scale Features: Features with larger scales won't dominate those with smaller scales.
+  4.	Prevents Dominance of Large-Scale Features: Features with larger scales won't dominate those with smaller scales.
 
 **ML Models**
 
-1. Logistic Regression
+  1. Logistic Regression
 
-•	A statistical model that predicts binary outcomes (positive/negative). Uses a sigmoid function to estimate probabilities.
+    •	A statistical model that predicts binary outcomes (positive/negative). Uses a sigmoid function to estimate probabilities.
 Suitable for text classification when features are properly preprocessed.
 
-2. Naïve Bayes
+  2. Naïve Bayes
 
-•	A probabilistic classifier based on Bayes’ theorem. Assumes independence between words (Bag of Words assumption). Works well for text classification, especially when data is sparse.
+    •	A probabilistic classifier based on Bayes’ theorem. Assumes independence between words (Bag of Words assumption). Works well for text classification, especially when data is sparse.
  
-3. Decision Tree Classifier
+  3. Decision Tree Classifier
 
-•	A tree-based model that splits data using decision rules. Each node represents a decision based on feature values. Easy to interpret but prone to overfitting without depth control.
+    •	A tree-based model that splits data using decision rules. Each node represents a decision based on feature values. Easy to interpret but prone to overfitting without depth control.
 
  
 4. XGBoost (Extreme Gradient Boosting)
