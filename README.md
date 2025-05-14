@@ -1,4 +1,10 @@
 # Amazon-Sentiment-Analysis
+
+dataset link
+
+https://www.kaggle.com/datasets/thanmayemajeti/amazon-reviews
+
+
 **Introduction:**
 
   Online reviews influence purchasing decisions. 
